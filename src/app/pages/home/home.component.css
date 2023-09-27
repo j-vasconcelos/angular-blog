@@ -1,0 +1,25 @@
+.container-home {
+  margin: 50px 50px;
+}
+
+.container-articles{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.articles-main {
+  margin-right: 100px;
+}
+
+.articles-others > hr {
+  margin-bottom: 25px;
+  opacity: 0.25;
+}
+
+.container-home > footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

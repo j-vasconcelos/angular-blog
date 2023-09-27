@@ -1,0 +1,29 @@
+.container-small-card {
+  margin-bottom: 25px;
+}
+
+
+.container-small-card > a {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-subtitle > p {
+  color: grey;
+  margin-top: 2px;
+  font-size: .8rem;
+}
+
+.small-card-title > h1 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.small-card-image > img {
+  width: 290px;
+  height: 175px;
+}
+
+.container-subtilte-title {
+  margin-left: 25px;
+}
