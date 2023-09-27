@@ -1,19 +1,19 @@
 <div class="container-big-card">
-  <a href="">
+  <a [routerLink]="['content', id]">
     <div class="big-card-image">
-      <img src="https://uoledtech.com.br/hubfs/blog.jpg"
+      <img src="{{ photoCover }}"
         alt="Imagem Placeholder"
         height="500px"
       >
     </div>
     <div class="big-card-subtitle">
-      <p>26 de setembro de 2023</p>
+      <p>{{ cardSubtitle }}</p>
     </div>
     <div class="big-card-title">
-      <h1>Conheça as novidades do Blog JV</h1>
+      <h1>{{ cardTitle }}</h1>
     </div>
     <div class="big-card-description">
-      <p>Lançado recentemente, o Blog JV já está no Top 10 do Brasil</p>
+      <p>{{ cardDescription }}</p>
     </div>
   </a>
 </div>

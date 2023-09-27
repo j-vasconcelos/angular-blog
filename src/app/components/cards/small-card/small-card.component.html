@@ -1,14 +1,14 @@
 <div class="container-small-card">
-  <a href="">
+  <a [routerLink]="['content', id]">
     <div class="small-card-image">
-      <img src="https://uoledtech.com.br/hubfs/blog.jpg" alt="Imagem Placeholder" height="500px">
+      <img src="{{ photoCover }}" alt="Imagem Placeholder" height="500px">
     </div>
     <div class="container-subtilte-title">
       <div class="small-card-subtitle">
-        <p>26 de setembro de 2023</p>
+        <p>{{ cardSubtitle }}</p>
       </div>
       <div class="small-card-title">
-        <h1>Conheça as novidades do Blog JV</h1>
+        <h1>{{ cardTitle }}</h1>
       </div>
     </div>
   </a>
